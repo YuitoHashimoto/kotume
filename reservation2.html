@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2：お客様情報入力</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1><img src="img/logo.png" alt=""></h1>
+            <div>
+                <ul>
+                    <li><a href="about.html">こつめかふぇとは</a></li>
+                    <li><a href="menu.html">メニュー</a></li>
+                    <li><a href="otter.html">カワウソ達</a></li>
+                    <li><a href="reservation.html">ご予約</a></li>
+                    <li><a href="">アクセス</a></li>
+                    <li><a href="">コンタクト</a></li>
+                </ul>
+            </div>
+        </header>
+        <div>
+            <p><img src="img/reservation2.png" alt=""></p>
+            <h2>2：お客様情報入力</h2>
+            <p>下記の内容を入力してください。</p> 
+            <form action="reserve.php" method="get">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>氏名(漢字)</th>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <th>氏名(カタカナ)</th>
+                            <td><input type="text" name="ruby"></td>
+                        </tr>
+                        <tr>
+                            <th>電話番号</th>
+                            <td><input type="text" name="number"></td>
+                        </tr>
+                        <tr>
+                            <th>メールアドレス</th>
+                            <td><input type="text" name="address"></td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">ポイント利用</th>
+                        </tr>
+                        <tr>
+                            <th>利用可能ポイント</th>
+                            <td>100pt</td>
+                        </tr>
+                        <tr>
+                            <th>ご利用ポイント</th>
+                            <td>
+                                <select name="point" id="">
+                                    <option name="point" value="no">利用しない</option>
+                                    <option name="point"　value="pt">100pt</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button type="submit"><img src="img/next_button.png" alt=""></button>
+                                <input type="image" src="img/back_button.png" alt="もどる">
+                           </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>

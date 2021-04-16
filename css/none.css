@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url("../img/noize.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width:1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    display: flex;
+} 
+
+/* register_nav */
+
+.register_nav_list {
+    display: flex;
+    width: 200px;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.login a,.register a {
+    font-family: "ヒラギノ角ゴ ProN",sans-serif;
+    color: #404040;
+    text-decoration: none;
+    width:100px;
+    padding: 5px 15px 5px;
+    border: 1px solid #707070;
+}
+
+.login a:hover,.register a:hover {
+    background-color: rgba(33 ,33, 33, 0.5)
+}
+
+/* nav */
+
+.nav {
+    width: 690px;
+    position: relative;
+}
+
+.nav ul{
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.menu,.otter,.access,.contact {
+    width: 115px;
+}
+
+.about {
+    width: 135px;
+}
+
+.reservation {
+    width: 95px;
+}
+
+.nav_list li a {
+    display: block;
+    text-decoration: none;
+    font-family: "ヒラギノ角ゴ ProN",sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_list li {
+    text-align: center;
+    height: 28px;
+}
+
+.menu,.otter,.reservation,.access,.contact {
+    border-left: 1px solid #fff;
+}
+
+.about:hover,.menu:hover,.otter:hover,.reservation:hover,.access:hover,.contact:hover {
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+.none p {
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    font-family: "筑紫A丸ゴシック",sans-serif;
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-weight: normal;
+    color: #FFF;
+}

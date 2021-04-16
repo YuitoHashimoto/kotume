@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #C8A47A;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width:1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    display: flex;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+/* nav */
+
+.nav {
+    width: 690px;
+    position: relative;
+}
+
+.nav ul{
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.menu,.otter,.access,.contact {
+    width: 115px;
+}
+
+.about {
+    width: 135px;
+}
+
+.reservation {
+    width: 95px;
+}
+
+.nav_list li a {
+    display: block;
+    text-decoration: none;
+    font-family: "ヒラギノ角ゴ ProN",sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_list li {
+    text-align: center;
+    height: 28px;
+}
+
+.menu,.otter,.reservation,.access,.contact {
+    border-left: 1px solid #fff;
+}
+
+.about:hover,.otter:hover,.reservation:hover,.access:hover,.contact:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.3);
+    pointer-events: none;
+}
+
+/* menu_list */
+
+.menu_list {
+    font-family: "ヒラギノ角ゴ ProN",sans-serif;
+    color: #404040;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 4px;
+    font-size: 18px;
+}
+
+.member_cash {
+    padding-top: 8px;
+}
+
+table {
+    padding-top: 4px;
+    font-size: 16px;
+}
+
+table th {
+    font-weight: normal;
+    text-align: left;
+}
+
+table td {
+    text-align: right;
+    padding-left: 20px;
+}
